@@ -2,7 +2,6 @@ import React from 'react'
 import {Routes, Route, BrowserRouter, Navigate} from "react-router-dom"
 import Inicio from '../Components/Inicio/Inicio'
 import Portafolio from "../Components/Portafolio/Portafolio"
-import Servicios from "../Components/Servicios/Servicios"
 import Footer from '../Components/Layout/Footer/Footer'
 import Proyecto from '../Components/Proyecto/Proyecto'
 import Formulario from '../Components/Formulario/Formulario'
@@ -18,7 +17,6 @@ const MisRutas = () => {
               <Route path='/' element={<Navigate to="/inicio"/>} />
               <Route path='/inicio' element={<Inicio/>} />
               <Route path='/portafolio' element={<Portafolio/>} />
-              <Route path='/servicios' element={<Servicios/>} />
               <Route path='/contacto' element={<Formulario/>} />
               <Route path='/proyecto/:id' element={<Proyecto/>} />
               <Route path='*' element={

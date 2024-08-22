@@ -28,9 +28,6 @@ const Footer = () => {
                         <NavLink to="/portafolio" className={({isActive}) => isActive ? "active" : ""}>Portafolio</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/servicios" className={({isActive}) => isActive ? "active" : ""}>Tecnologias</NavLink>
-                    </li>
-                    <li>
                         <NavLink to="/contacto" className={({isActive}) => isActive ? "active" : ""}>Contacto</NavLink>
                     </li>
                 </ul>
