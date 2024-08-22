@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+:root {
+    --blanco: #ffffff;
+    --rosado: #ef6eae;
+    --naranja: #ef8f6e;
+    --gris: #373e47;
+    --verde: #57cc99;
+    --celeste: #61a5c2;
+    --fuente-principal: 'Outfit', sans-serif;
+    --fuente-secundaria: 'Raleway', sans-serif;
+}
+
+.layout{
+    width: 100%;
+    margin: 0 auto;    
+}
+
+body{
+    background-color: var(--gris);
+}
+
+.content{
+    min-height: 700px;
+}

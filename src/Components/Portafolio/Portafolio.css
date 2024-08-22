@@ -1,0 +1,22 @@
+.page h1{
+    margin-left: 32px;
+    font-family: var(--fuente-principal);
+    margin-top: 30px;
+}
+
+.page .text-portafolio{
+    font-size: 25px;
+    color: white;
+    margin-left: 35px;
+    font-family: var(--fuente-principal);
+}
+
+.page strong {
+    color: var(--verde);
+}
+
+.page .heading{
+    font-size: 45px;
+    color: var(--celeste);
+}
+

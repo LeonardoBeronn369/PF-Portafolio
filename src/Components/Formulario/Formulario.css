@@ -1,0 +1,82 @@
+
+.cont-formulario{
+  font-family: var(--fuente-secundaria);
+  color: var(--blanco);
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  text-align: center;
+  padding: 20px 20px 30px 20px;
+  background-color: rgba(5, 7, 12, 0.40);
+  border-radius: 1rem;
+  width: min( 45rem, 100% );
+  margin: 20px auto;
+  background-image: url(../../../public/images/fondo-02.jpg);
+  
+}
+
+.cont-formulario legend{
+  margin-bottom: 2rem;
+  font-size: 22px;
+}
+
+.cont-formulario label{
+  font-size: 20px;
+  margin-bottom: 0;
+  margin-top: 15px;
+}
+
+
+input[type="text"],
+textarea{
+    display: block;
+    padding: 15px;
+    margin-top: 25px;
+    width: 350px;
+    border-radius: 1rem;
+}
+
+textarea{
+  height: 15rem;
+}
+  
+
+.btn-formulario:hover,
+.btn-formulario:focus {
+  -webkit-animation: pulse 1s;
+          animation: pulse 1s;
+  box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--naranja);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--naranja);
+  }
+}
+
+button {
+  color: var(--rosado);
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  
+}
+button:hover, button:focus {
+  border-color: var(--naranja);
+  color: var(--blanco);
+}
+
+button {
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+  border-radius: 1rem;
+}
