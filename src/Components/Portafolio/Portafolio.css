@@ -1,22 +1,18 @@
-.page h1{
-    margin-left: 32px;
-    font-family: var(--fuente-principal);
-    margin-top: 30px;
+.contenedor-img {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
 }
 
-.page .text-portafolio{
-    font-size: 25px;
-    color: white;
-    margin-left: 35px;
-    font-family: var(--fuente-principal);
-}
-
-.page strong {
+.heading-portafolio {
+    font-size: 2.5em;
+    margin-bottom: 10px;
     color: var(--verde);
 }
 
-.page .heading{
-    font-size: 45px;
-    color: var(--celeste);
+.text-portafolio {
+    font-size: 25px;
+    margin-bottom: 30px;
+    color: var(--blanco);
 }
-

@@ -48,9 +48,6 @@
     cursor: pointer;
 }
 
-.link-contacto{
-  background-color: black;
-}
 
 .lasts-works h2{
     font-size: 35px;
@@ -58,11 +55,25 @@
     margin-top: 20px;
     margin-top: 40px;
     font-family: var(--fuente-principal);
-
+    
 }
 .lasts-works p{
     font-size: 25px;
     color: aliceblue;
     margin-left: 20px;
     font-family: var(--fuente-secundaria);
+    margin-bottom: 15px;
 }
+
+
+
+
+.lasts-works {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
